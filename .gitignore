@@ -5,7 +5,6 @@ dist/
 .vinxi
 .cache
 .data
-.wrangler
 .env
 .env.*
 dev-dist
