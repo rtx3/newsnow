@@ -97,6 +97,7 @@ export const originSources = {
     color: "blue",
     home: "https://36kr.com",
     column: "tech",
+    disable: "cf",
     sub: {
       quick: {
         title: "快讯",
@@ -117,10 +118,26 @@ export const originSources = {
   "hupu": {
     name: "虎扑",
     home: "https://hupu.com",
-    column: "china",
+    column: "sports",
     title: "主干道热帖",
     type: "hottest",
     color: "red",
+  },
+  "dongqiudi": {
+    name: "懂球帝",
+    title: "头条",
+    type: "realtime",
+    column: "sports",
+    color: "green",
+    home: "https://www.dongqiudi.com",
+  },
+  "aihot": {
+    name: "AIHOT",
+    type: "realtime",
+    column: "tech",
+    color: "blue",
+    interval: Time.Fast,
+    home: "https://aihot.virxact.com/all",
   },
   "tieba": {
     name: "百度贴吧",
@@ -451,6 +468,36 @@ export const originSources = {
     color: "green",
     type: "hottest",
     home: "https://www.freebuf.com/",
+  },
+
+  "qqvideo": {
+    name: "腾讯视频",
+    column: "china",
+    color: "blue",
+    home: "https://v.qq.com/",
+    sub: {
+      "tv-hotsearch": {
+        title: "热搜榜",
+        type: "hottest",
+        interval: Time.Common,
+        home: "https://v.qq.com/channel/tv",
+
+      },
+    },
+  },
+  "iqiyi": {
+    name: "爱奇艺",
+    column: "china",
+    color: "green",
+    home: "https://www.iqiyi.com",
+    sub: {
+      "hot-ranklist": {
+        title: "热播榜",
+        type: "hottest",
+        interval: Time.Common,
+        home: "https://www.iqiyi.com",
+      },
+    },
   },
 } as const satisfies Record<string, OriginSource>
 

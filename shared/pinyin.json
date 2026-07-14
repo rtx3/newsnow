@@ -12,6 +12,8 @@
   "36kr-renqi": "36ke-renqibang",
   "douyin": "douyin",
   "hupu": "hupu-zhugandaoretie",
+  "dongqiudi": "dongqiudi-toutiao",
+  "aihot": "AIHOT",
   "tieba": "baidutieba-reyi",
   "toutiao": "jinritoutiao",
   "ithome": "ITzhijia",
@@ -46,5 +48,7 @@
   "douban": "douban-remendianying",
   "steam": "Steam-zaixianrenshu",
   "tencent-hot": "tengxunxinwen-zonghezaobao",
-  "freebuf": "Freebuf-wangluoanquan"
+  "freebuf": "Freebuf-wangluoanquan",
+  "qqvideo-tv-hotsearch": "tengxunshipin-resoubang",
+  "iqiyi-hot-ranklist": "aiqiyi-rebobang"
 }

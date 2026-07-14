@@ -108,6 +108,7 @@
     "redirect": "36kr-quick",
     "name": "36氪",
     "type": "realtime",
+    "disable": "cf",
     "column": "tech",
     "home": "https://36kr.com",
     "color": "blue",
@@ -117,6 +118,7 @@
   "36kr-quick": {
     "name": "36氪",
     "type": "realtime",
+    "disable": "cf",
     "column": "tech",
     "home": "https://36kr.com",
     "color": "blue",
@@ -126,6 +128,7 @@
   "36kr-renqi": {
     "name": "36氪",
     "type": "hottest",
+    "disable": "cf",
     "column": "tech",
     "home": "https://36kr.com",
     "color": "blue",
@@ -144,10 +147,27 @@
     "title": "主干道热帖",
     "name": "虎扑",
     "type": "hottest",
-    "column": "china",
+    "column": "sports",
     "home": "https://hupu.com",
     "color": "red",
     "interval": 600000
+  },
+  "dongqiudi": {
+    "title": "头条",
+    "name": "懂球帝",
+    "type": "realtime",
+    "column": "sports",
+    "home": "https://www.dongqiudi.com",
+    "color": "green",
+    "interval": 600000
+  },
+  "aihot": {
+    "name": "AIHOT",
+    "type": "realtime",
+    "column": "tech",
+    "home": "https://aihot.virxact.com/all",
+    "color": "blue",
+    "interval": 300000
   },
   "tieba": {
     "title": "热议",
@@ -525,5 +545,43 @@
     "home": "https://www.freebuf.com/",
     "color": "green",
     "interval": 600000
+  },
+  "qqvideo": {
+    "redirect": "qqvideo-tv-hotsearch",
+    "name": "腾讯视频",
+    "type": "hottest",
+    "column": "china",
+    "home": "https://v.qq.com/channel/tv",
+    "color": "blue",
+    "interval": 1800000,
+    "title": "热搜榜"
+  },
+  "qqvideo-tv-hotsearch": {
+    "name": "腾讯视频",
+    "type": "hottest",
+    "column": "china",
+    "home": "https://v.qq.com/channel/tv",
+    "color": "blue",
+    "interval": 1800000,
+    "title": "热搜榜"
+  },
+  "iqiyi": {
+    "redirect": "iqiyi-hot-ranklist",
+    "name": "爱奇艺",
+    "type": "hottest",
+    "column": "china",
+    "home": "https://www.iqiyi.com",
+    "color": "green",
+    "interval": 1800000,
+    "title": "热播榜"
+  },
+  "iqiyi-hot-ranklist": {
+    "name": "爱奇艺",
+    "type": "hottest",
+    "column": "china",
+    "home": "https://www.iqiyi.com",
+    "color": "green",
+    "interval": 1800000,
+    "title": "热播榜"
   }
 }
