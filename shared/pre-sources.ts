@@ -499,6 +499,14 @@ export const originSources = {
       },
     },
   },
+  "brutalist": {
+    name: "Brutalist Report",
+    column: "world",
+    title: "All",
+    color: "slate",
+    type: "realtime",
+    home: "https://brutalist.report",
+  },
 } as const satisfies Record<string, OriginSource>
 
 export function genSources() {
