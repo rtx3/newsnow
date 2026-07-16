@@ -507,6 +507,14 @@ export const originSources = {
     type: "realtime",
     home: "https://brutalist.report",
   },
+  "nga": {
+    name: "NGA",
+    column: "finance",
+    title: "大时代",
+    color: "orange",
+    type: "realtime",
+    home: "https://bbs.nga.cn/thread.php?fid=706",
+  },
 } as const satisfies Record<string, OriginSource>
 
 export function genSources() {

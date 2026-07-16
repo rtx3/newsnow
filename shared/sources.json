@@ -618,5 +618,14 @@
     "home": "https://brutalist.report",
     "color": "slate",
     "interval": 600000
+  },
+  "nga": {
+    "title": "大时代",
+    "name": "NGA",
+    "type": "realtime",
+    "column": "finance",
+    "home": "https://bbs.nga.cn/thread.php?fid=706",
+    "color": "orange",
+    "interval": 600000
   }
 }
